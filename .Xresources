@@ -1,14 +1,25 @@
+! Font options
+
 Xft.dpi:       96
-Xft.antialias: false
-Xft.hinting:   true
+Xft.antialias: true
+Xft.hinting:   false
 Xft.rgba:      rgb
 Xft.autohint:  false
-Xft.hintstyle: hintslight
-Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintnone
+Xft.lcdfilter: lcdlight
+
+! Cursor options
+
+Xcursor.theme: xcursor-breeze
+Xcursor.size:                     0
+
+! XTerm options
 
 XTerm*faceSize:          11
 XTerm*selectToClipboard: true
 XTerm*faceName:          xft:mono:medium:size=14
+
+! Color settings
 
 ! special
 *.foreground:   #ffffff
@@ -47,8 +58,7 @@ XTerm*faceName:          xft:mono:medium:size=14
 *.color7:       #c8cacc
 *.color15:      #edeff2
 
-Xcursor.theme: xcursor-breeze
-Xcursor.size:                     0
+! URxvt settings
 
 URxvt*font:                       xft:mono:medium:size=14
 URxvt.antialias:                  false
